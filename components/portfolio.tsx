@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import Modal1 from './modal1'
-import Modal2 from './modal2'
-import Modal3 from './modal3'
-import Modal4 from './modal4'
-import Modal5 from './modal5'
-import { useState } from 'react'
+import Image from "next/image";
+import Modal1 from "./modal1";
+import Modal2 from "./modal2";
+import Modal3 from "./modal3";
+import Modal4 from "./modal4";
+import Modal5 from "./modal5";
+import { useState } from "react";
 
 // mapping later
 export function Portfolio(): JSX.Element {
-  const [showModal1, setShowModal1] = useState(false)
-  const [showModal2, setShowModal2] = useState(false)
-  const [showModal3, setShowModal3] = useState(false)
-  const [showModal4, setShowModal4] = useState(false)
-  const [showModal5, setShowModal5] = useState(false)
+  const [showModal1, setShowModal1] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
+  const [showModal4, setShowModal4] = useState(false);
+  const [showModal5, setShowModal5] = useState(false);
 
   return (
     <>
@@ -22,13 +22,17 @@ export function Portfolio(): JSX.Element {
       >
         <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">Click for details</h1>
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">Pomodoro Clock</h1>
+            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+              Pomodoro Clock
+            </h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              A pomodoro clock built to manage time better. Includes features like an alarm system
-              and custom timer lengths. Leverages{' '}
+              A pomodoro clock built to manage time better. Includes features
+              like an alarm system and custom timer lengths. Leverages{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -106,7 +110,12 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/80 to-black/80 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/pomodoro-clock.png" width={3600} height={2030} />
+            <Image
+              priority
+              src="/pomodoro-clock.png"
+              width={3600}
+              height={2030}
+            />
           </span>
         </div>
       </div>
@@ -117,14 +126,16 @@ export function Portfolio(): JSX.Element {
       >
         <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">Click for details</h1>
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">CNDR</h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              A web application that tracks wildfires in real-time and provides mitigation methods
-              depending on the severity. Uses NASA's EONET API for data and Google Maps to display
-              it.
+              A web application that tracks wildfires in real-time and provides
+              mitigation methods depending on the severity. Uses NASA's EONET
+              API for data and Google Maps to display it.
             </p>
             <p className="text-gray-300 text-[0.85rem] mb-4">
               Built at Hack the North 2022, Canada's largest hackathon @
@@ -199,7 +210,7 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/80 to-black/80 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/cndr.png" width={3600} height={2030} />
+            <Image priority src="/cndr.png" width={3600} height={2030} />
           </span>
         </div>
       </div>
@@ -210,13 +221,17 @@ export function Portfolio(): JSX.Element {
       >
         <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">Click for details</h1>
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">Personal Site</h1>
+            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+              Personal Site
+            </h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Not much to say here! This one gave me an excuse to practice with Next.js and CSS
-              frameworks/libraries.
+              Not much to say here! This one gave me an excuse to practice with
+              Next.js and CSS frameworks/libraries.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
@@ -297,14 +312,16 @@ export function Portfolio(): JSX.Element {
       >
         <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">Click for details</h1>
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Competitive Programming
             </h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              My competitive programming solutions for online judges such as the{' '}
+              My competitive programming solutions for online judges such as the{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -312,7 +329,7 @@ export function Portfolio(): JSX.Element {
               >
                 CCC
               </a>
-              ,{' '}
+              ,{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -320,7 +337,7 @@ export function Portfolio(): JSX.Element {
               >
                 DMOJ
               </a>
-              , and{' '}
+              , and{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -370,7 +387,11 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/80 to-black/80 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/competitive-programming.png" width={3600} height={2030} />
+            <Image
+              src="/competitive-programming.png"
+              width={3600}
+              height={2030}
+            />
           </span>
         </div>
       </div>
@@ -381,16 +402,19 @@ export function Portfolio(): JSX.Element {
       >
         <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">Click for details</h1>
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Traffic Stop Intersection
             </h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Processed LED signals using parallelization and timers with Arduino to design and
-              build a traffic light intersection system. Proposed, debugged, and optimized a
-              functioning prototype using TinkerCAD.
+              Processed LED signals using parallelization and timers with
+              Arduino to design and build a traffic light intersection system.
+              Proposed, debugged, and optimized a functioning prototype using
+              TinkerCAD.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
@@ -441,6 +465,6 @@ export function Portfolio(): JSX.Element {
       </div>
       <Modal5 isVisible={showModal5} onClose={() => setShowModal5(false)} />
     </>
-  )
+  );
 }
-export default Portfolio
+export default Portfolio;
