@@ -231,11 +231,14 @@ export function Portfolio(): JSX.Element {
             </h1>
             <p className="text-gray-300 text-[0.85rem] mb-4">
               Not much to say here! This one gave me an excuse to practice with
-              Next.js and CSS frameworks/libraries.
+              Next.js, TypeScript and CSS frameworks/libraries.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
                 Next.js
+              </div>
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
+                TypeScript
               </div>
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
                 Styled Components

@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Modal3 = ({ isVisible, onClose }) => {
-  if (!isVisible) return null
+  if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
       <div className="sm:w-[90%] mdl:w-[75%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
@@ -23,16 +23,21 @@ const Modal3 = ({ isVisible, onClose }) => {
               <path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"></path>
             </svg>
           </button>
-          <h1 className="font-bold md:text-2xl text-xl mb-4 text-gray-300">Personal Site</h1>
+          <h1 className="font-bold md:text-2xl text-xl mb-4 text-gray-300">
+            Personal Site
+          </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Not much to say here! This one gave me an excuse to practice with Next.js and CSS
-              frameworks/libraries.
+              Not much to say here! This one gave me an excuse to practice with
+              Next.js, TypeScript and CSS frameworks/libraries.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               Next.js
+            </div>
+            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
+              TypeScript
             </div>
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               Styled Components
@@ -96,7 +101,7 @@ const Modal3 = ({ isVisible, onClose }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Modal3
+export default Modal3;
