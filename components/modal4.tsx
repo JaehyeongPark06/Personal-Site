@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Modal4 = ({ isVisible, onClose }) => {
-  if (!isVisible) return null
+  if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
-      <div className="sm:w-[90%] mdl:w-[75%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
+      <div className="sm:w-[90%] md:w-[88%] mdd:w-[80%] lmdd:w-[75%] lmdl:w-[90%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
         <div className="flex flex-col relative justify-start bg-gray-800 z-[55] sm:p-8 pt-12 p-7 w-full h-full">
           <button
             onClick={() => onClose()}
-            className="focus:outline-[1px] focus:outline-gray-100 absolute flex items-center justify-center right-0 top-0 mt-5 mr-5 p-2 rounded-full bg-gray-300 duration-200"
+            className="cursor-pointer absolute flex items-center justify-center right-0 top-0 mt-5 mr-5 p-2 rounded-full bg-gray-300 duration-200"
           >
             <svg
               stroke="currentColor"
@@ -28,15 +28,15 @@ const Modal4 = ({ isVisible, onClose }) => {
           </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              My competitive programming solutions for online judges such as the{' '}
+              My competitive programming solutions for online judges such as the{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
                 href="https://cccgrader.com/"
               >
                 CCC
-              </a>{' '}
-              ,{' '}
+              </a>{" "}
+              ,{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -44,7 +44,7 @@ const Modal4 = ({ isVisible, onClose }) => {
               >
                 DMOJ
               </a>
-              , and{' '}
+              , and{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -93,7 +93,7 @@ const Modal4 = ({ isVisible, onClose }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Modal4
+export default Modal4;

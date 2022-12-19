@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 const Modal5 = ({ isVisible, onClose }) => {
-  if (!isVisible) return null
+  if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
-      <div className="sm:w-[90%] mdl:w-[75%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
+      <div className="sm:w-[90%] md:w-[88%] mdd:w-[80%] lmdd:w-[75%] lmdl:w-[90%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
         <div className="flex flex-col relative justify-start bg-gray-800 z-[55] sm:p-8 pt-12 p-7 w-full h-full">
           <button
             onClick={() => onClose()}
-            className="focus:outline-[1px] focus:outline-gray-100 absolute flex items-center justify-center right-0 top-0 mt-5 mr-5 p-2 rounded-full bg-gray-300 duration-200"
+            className="cursor-pointer absolute flex items-center justify-center right-0 top-0 mt-5 mr-5 p-2 rounded-full bg-gray-300 duration-200"
           >
             <svg
               stroke="currentColor"
@@ -28,9 +28,10 @@ const Modal5 = ({ isVisible, onClose }) => {
           </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Processed LED signals using parallelization and timers with Arduino to design and
-              build a traffic light intersection system. Proposed, debugged, and optimized a
-              functioning prototype using TinkerCAD.
+              Processed LED signals using parallelization and timers with
+              Arduino to design and build a traffic light intersection system.
+              Proposed, debugged, and optimized a functioning prototype using
+              TinkerCAD.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
@@ -74,7 +75,7 @@ const Modal5 = ({ isVisible, onClose }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Modal5
+export default Modal5;

@@ -10,6 +10,10 @@ module.exports = {
 
       md: "360px",
 
+      mdd: "390px",
+
+      lmdd: "410px",
+
       lmdl: "440px",
 
       mdl: "600px",
