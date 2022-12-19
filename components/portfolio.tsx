@@ -210,7 +210,7 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/80 to-black/80 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image priority src="/cndr.png" width={3600} height={2030} />
+            <Image src="/cndr.png" width={3600} height={2030} />
           </span>
         </div>
       </div>
