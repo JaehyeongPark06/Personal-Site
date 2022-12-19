@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Modal1 = ({ isVisible, onClose }) => {
-  if (!isVisible) return null
+  if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
       <div className="sm:w-[90%] mdl:w-[75%] w-11/12 max-h-[66.6%] relative p-0 flex justify-center items-center before:-z-[50] before:content-[''] before:w-full before:h-[90%] custom-popup-gradient before:absolute before:left-1/2 before:blur-2xl before:translate-y-7 before:-translate-x-1/2">
@@ -23,11 +23,13 @@ const Modal1 = ({ isVisible, onClose }) => {
               <path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"></path>
             </svg>
           </button>
-          <h1 className="font-bold md:text-2xl text-xl mb-4 text-gray-300">Pomodoro Clock</h1>
+          <h1 className="font-bold md:text-2xl text-xl mb-4 text-gray-300">
+            Pomodoro Clock
+          </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              A pomodoro clock built to manage time better. Includes features like an alarm system
-              and custom timer lengths. Leverages{' '}
+              A pomodoro clock built to manage time better. Includes features
+              like an alarm system and custom timer lengths. Leverages{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
@@ -104,7 +106,7 @@ const Modal1 = ({ isVisible, onClose }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Modal1
+export default Modal1;
