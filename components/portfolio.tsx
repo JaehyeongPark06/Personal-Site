@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Modal1 from "../modals/modal1";
-import Modal2 from "../modals/modal2";
-import Modal3 from "../modals/modal3";
-import Modal4 from "../modals/modal4";
-import Modal5 from "../modals/modal5";
+import Modal1 from "./modals/modal1";
+import Modal2 from "./modals/modal2";
+import Modal3 from "./modals/modal3";
+import Modal4 from "./modals/modal4";
+import Modal5 from "./modals/modal5";
 import { useState } from "react";
 
 // mapping later
@@ -328,19 +328,11 @@ export function Portfolio(): JSX.Element {
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
-                href="https://cccgrader.com/"
-              >
-                CCC
-              </a>
-              ,{" "}
-              <a
-                className="underline hover:opacity-70 duration-200 cursor-pointer"
-                target="_blank"
                 href="https://dmoj.ca/"
               >
                 DMOJ
-              </a>
-              , and{" "}
+              </a>{" "}
+              and{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
                 target="_blank"
