@@ -1,23 +1,23 @@
-import { NavigationItem } from './navigationItem'
+import { NavigationItem } from "./navigationItem";
 
 export const navItems = [
   {
-    href: '/',
-    title: 'Home'
+    href: "/",
+    title: "Home",
   },
   {
-    href: '/about',
-    title: 'About'
+    href: "/about",
+    title: "About",
   },
   {
-    href: '/projects',
-    title: 'Projects'
+    href: "/projects",
+    title: "Projects",
   },
   {
-    href: '/blog',
-    title: 'Blog'
-  }
-]
+    href: "/blog",
+    title: "Blog",
+  },
+];
 
 export function Header(): JSX.Element {
   return (
@@ -28,5 +28,5 @@ export function Header(): JSX.Element {
         ))}
       </div>
     </>
-  )
+  );
 }

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Modal1 from "./modal1";
-import Modal2 from "./modal2";
-import Modal3 from "./modal3";
-import Modal4 from "./modal4";
-import Modal5 from "./modal5";
+import Modal1 from "../modals/modal1";
+import Modal2 from "../modals/modal2";
+import Modal3 from "../modals/modal3";
+import Modal4 from "../modals/modal4";
+import Modal5 from "../modals/modal5";
 import { useState } from "react";
 
 // mapping later
