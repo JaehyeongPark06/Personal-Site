@@ -111,7 +111,7 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
             <Image
-              priority
+              priority={true}
               src="/pomodoro-clock.png"
               width={3600}
               height={2030}
