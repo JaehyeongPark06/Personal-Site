@@ -33,7 +33,7 @@ const Modal2 = ({ isVisible, onClose }) => {
               API for data and Google Maps to display it.
             </p>
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Built at Hack the North 2022, Canada's largest hackathon @
+              Hacked at Hack the North 2022, Canada's largest hackathon @
               <a
                 target="_blank"
                 href="https://uwaterloo.ca/"
