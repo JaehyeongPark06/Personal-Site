@@ -48,10 +48,10 @@ const Modal4 = ({ isVisible, onClose }) => {
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] rounded-md border-gray-300 mr-2 mb-1">
+            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               C++
             </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] rounded-md border-gray-300 mr-2 mb-1">
+            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               Python
             </div>
           </div>
