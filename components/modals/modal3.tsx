@@ -29,7 +29,7 @@ const Modal3 = ({ isVisible, onClose }) => {
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
               Not much to say here! This one gave me an excuse to practice with
-              Next.js, TypeScript and CSS frameworks/libraries.
+              Next.js and TypeScript.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
