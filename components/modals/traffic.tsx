@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal5 = ({ isVisible, onClose }) => {
+const Traffic = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
@@ -78,4 +78,4 @@ const Modal5 = ({ isVisible, onClose }) => {
   );
 };
 
-export default Modal5;
+export default Traffic;

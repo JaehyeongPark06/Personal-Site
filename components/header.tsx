@@ -14,8 +14,8 @@ export const navItems = [
     title: "Projects",
   },
   {
-    href: "/blog",
-    title: "Blog",
+    href: "/posts",
+    title: "Posts",
   },
 ];
 

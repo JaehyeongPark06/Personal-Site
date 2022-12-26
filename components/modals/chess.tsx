@@ -1,6 +1,6 @@
 import React from "react";
 
-const Modal3 = ({ isVisible, onClose }) => {
+const Chess = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
   return (
     <div className="sm:flex lmd:hidden z-40 backdrop-blur-md bg-black/70 fixed top-0 left-0 h-screen w-screen flex justify-center items-center select-none">
@@ -24,34 +24,23 @@ const Modal3 = ({ isVisible, onClose }) => {
             </svg>
           </button>
           <h1 className="font-bold md:text-2xl text-xl mb-4 text-gray-300">
-            Personal Site
+            Chess Engine
           </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
-              Not much to say here! This one gave me an excuse to practice with
-              Next.js and TypeScript.
+              A rudimentary chess engine with up to 5th depth game analysis.
+              Utilizes alpha-beta pruning and minimax algorithms to find the
+              next best move in a position.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Next.js
-            </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              TypeScript
-            </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Styled Components
-            </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Tailwind CSS
-            </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Netlify
+              JavaScript
             </div>
           </div>
           <div className="flex items-center">
             <a
-              href="https://github.com/JaehyeongPark06/Personal-Site"
+              href="https://github.com/JaehyeongPark06/Chess-Engine"
               target="_blank"
               className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
             >
@@ -76,7 +65,7 @@ const Modal3 = ({ isVisible, onClose }) => {
               </svg>
             </a>
             <a
-              href="https://jaehyeongpark.social/"
+              href="https://jaehyeong-chess.netlify.app/"
               target="_blank"
               className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
             >
@@ -107,4 +96,4 @@ const Modal3 = ({ isVisible, onClose }) => {
   );
 };
 
-export default Modal3;
+export default Chess;
