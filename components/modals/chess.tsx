@@ -27,15 +27,25 @@ const Chess = ({ isVisible, onClose }) => {
             Chess Engine
           </h1>
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
-            <p className="text-gray-300 text-[0.85rem] mb-4">
-              A rudimentary chess engine with up to 5th depth game analysis.
-              Utilizes alpha-beta pruning and minimax algorithms to find the
-              next best move in a position.
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              A chess engine based on the Negamax algorithm with up to 10th
+              depth game analysis. Features include taking back moves, flipping
+              and resetting the board, under promotions and custom board
+              positions and evaluation times.
+            </p>
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              More info can be found on the Github respository.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               JavaScript
+            </div>
+            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
+              Bootstrap
+            </div>
+            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
+              Netlify
             </div>
           </div>
           <div className="flex items-center">
@@ -65,7 +75,7 @@ const Chess = ({ isVisible, onClose }) => {
               </svg>
             </a>
             <a
-              href="https://jaehyeong-chess.netlify.app/"
+              href="https://jaehyeong-chess-engine.netlify.app/"
               target="_blank"
               className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
             >

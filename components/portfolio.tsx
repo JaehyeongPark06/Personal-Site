@@ -20,6 +20,102 @@ export function Portfolio(): JSX.Element {
   return (
     <>
       <div
+        onClick={() => setShowChess(true)}
+        className="block w-full aspect-video relative overflow-hidden group select-none"
+      >
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+          <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
+          </div>
+          <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
+            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+              Chess Engine
+            </h1>
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              A chess engine based on the Negamax algorithm with up to 10th
+              depth game analysis. Features include taking back moves, flipping
+              and resetting the board, under promotions and custom board
+              positions and evaluation times.
+            </p>
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              More info can be found on the Github respository.
+            </p>
+            <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+                JavaScript
+              </div>
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+                Bootstrap
+              </div>
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+                Netlify
+              </div>
+            </div>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/JaehyeongPark06/Chess-Engine"
+                target="_blank"
+                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+              >
+                Github
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="36"
+                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://jaehyeong-chess-engine.netlify.app/"
+                target="_blank"
+                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+              >
+                Live Site
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="36"
+                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/70 to-black/70 duration-200"></div>
+        <div className="absolute top-0 left-0 w-full h-full">
+          <span className="box-border overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
+            <Image src="/chess-engine.png" width={3600} height={2040} />
+          </span>
+        </div>
+      </div>
+      <Chess isVisible={showChess} onClose={() => setShowChess(false)} />
+      <div
         onClick={() => setShowPomodoro(true)}
         className="sm:cursor-pointer mdl:cursor-default block w-full aspect-video relative overflow-hidden group select-none"
       >
@@ -116,12 +212,7 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/70 to-black/70 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image
-              priority={true}
-              src="/pomodoro-clock.png"
-              width={3600}
-              height={2030}
-            />
+            <Image src="/pomodoro-clock.png" width={3600} height={2030} />
           </span>
         </div>
       </div>
@@ -224,92 +315,6 @@ export function Portfolio(): JSX.Element {
         </div>
       </div>
       <CNDR isVisible={showCNDR} onClose={() => setShowCNDR(false)} />
-      <div
-        onClick={() => setShowChess(true)}
-        className="block w-full aspect-video relative overflow-hidden group select-none"
-      >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
-          <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
-              Click for details
-            </h1>
-          </div>
-          <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
-              Chess Engine
-            </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
-              A rudimentary chess engine with up to 5th depth game analysis.
-              Utilizes alpha-beta pruning and minimax algorithms to find the
-              next best move in a position.
-            </p>
-            <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                JavaScript
-              </div>
-            </div>
-            <div className="flex items-center">
-              <a
-                href="https://github.com/JaehyeongPark06/Chess-Engine"
-                target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
-              >
-                Github
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="36"
-                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
-                  ></path>
-                </svg>
-              </a>
-              <a
-                href="https://jaehyeong-chess.netlify.app/"
-                target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
-              >
-                Live Site
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="36"
-                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/70 to-black/70 duration-200"></div>
-        <div className="absolute top-0 left-0 w-full h-full">
-          <span className="box-border overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/chess.png" width={3600} height={2010} />
-          </span>
-        </div>
-      </div>
-      <Chess isVisible={showChess} onClose={() => setShowChess(false)} />
       <div
         onClick={() => setShowPersonal(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
