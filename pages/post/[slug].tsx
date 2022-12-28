@@ -2,16 +2,19 @@ import { FooterText } from "../../components/footer";
 import Head from "next/head";
 import { Header } from "../../components/header";
 import fs from "fs";
+import { marked } from "marked";
 import matter from "gray-matter";
-import md from "markdown-it";
+import path from "path";
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync("posts");
-  const paths = files.map((fileName) => ({
+  const files = fs.readdirSync(path.join("posts"));
+
+  const paths = files.map((filename) => ({
     params: {
-      slug: fileName.replace(".md", ""),
+      slug: filename.replace(".md", ""),
     },
   }));
+
   return {
     paths,
     fallback: false,
@@ -19,11 +22,17 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const fileName = fs.readFileSync(`posts/${slug}.md`, "utf-8");
-  const { data: frontmatter, content } = matter(fileName);
+  const markdownWithMeta = fs.readFileSync(
+    path.join("posts", slug + ".md"),
+    "utf-8"
+  );
+
+  const { data: frontmatter, content } = matter(markdownWithMeta);
+
   return {
     props: {
       frontmatter,
+      slug,
       content,
     },
   };
@@ -36,7 +45,7 @@ export default function PostPage({ frontmatter, content }) {
         {" "}
         <title>{frontmatter.title} - Jaehyeong Park</title>
       </Head>
-      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-40 2xl:w-32">
+      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-44 2xl:w-32">
         <Header />
         <main className="w-full">
           <h1 className="text-4xl text-gray-300 font-bold mt-8">
@@ -46,9 +55,9 @@ export default function PostPage({ frontmatter, content }) {
             {frontmatter.date} <span className="font-bold">·</span>{" "}
             {frontmatter.length}
           </h2>
-          <article
-            className="prose prose-xl mt-8 text-gray-300"
-            dangerouslySetInnerHTML={{ __html: md().render(content) }}
+          <div
+            className="mt-8 text-gray-300"
+            dangerouslySetInnerHTML={{ __html: marked(content) }}
           />
         </main>
         <FooterText />

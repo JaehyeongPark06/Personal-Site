@@ -1,10 +1,10 @@
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-import { AboutMe } from '../components/me'
-import { FooterText } from '../components/footer'
-import Head from 'next/head'
-import { Header } from '../components/header'
-import type { NextPage } from 'next'
+import { AboutMe } from "../components/me";
+import { FooterText } from "../components/footer";
+import Head from "next/head";
+import { Header } from "../components/header";
+import type { NextPage } from "next";
 
 const About: NextPage = () => {
   return (
@@ -21,7 +21,7 @@ const About: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-70 lg:w-40 2xl:w-32">
+      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-70 lg:w-44 2xl:w-32">
         <Header />
         <main className="w-full">
           <AboutMe />
@@ -29,7 +29,7 @@ const About: NextPage = () => {
         <FooterText></FooterText>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
