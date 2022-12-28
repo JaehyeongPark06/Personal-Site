@@ -15,7 +15,7 @@ const Project: NextPage = () => {
         <meta name="description" content="Uploading soon." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-70 lg:w-44 2xl:w-32">
+      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-70 lg:w-42 2xl:w-32">
         <Header />
 
         <main className="w-full">
