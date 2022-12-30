@@ -4,6 +4,7 @@ import Comp from "./modals/comp";
 import Image from "next/image";
 import Personal from "./modals/personal";
 import Pomodoro from "./modals/pomodoro";
+import Sort from "./modals/sort";
 import Traffic from "./modals/traffic";
 import { useState } from "react";
 
@@ -16,6 +17,7 @@ export function Portfolio(): JSX.Element {
   const [showComp, setShowComp] = useState(false);
   const [showTraffic, setShowTraffic] = useState(false);
   const [showChess, setShowChess] = useState(false);
+  const [showSort, setShowSort] = useState(false);
 
   return (
     <>
@@ -23,7 +25,7 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowChess(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
@@ -119,7 +121,7 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowPomodoro(true)}
         className="sm:cursor-pointer mdl:cursor-default block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
@@ -221,70 +223,39 @@ export function Portfolio(): JSX.Element {
         onClose={() => setShowPomodoro(false)}
       />
       <div
-        onClick={() => setShowCNDR(true)}
+        onClick={() => setShowSort(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">CNDR</h1>
+            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+              Sorting Algorithm Visualizer
+            </h1>
             <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
-              A web application that tracks wildfires in real-time and provides
-              mitigation methods depending on the severity. Uses NASA's EONET
-              API for data and Google Maps to display it.
-            </p>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
-              Hacked at Hack the North 2022, Canada's largest hackathon @
-              <a
-                target="_blank"
-                href="https://uwaterloo.ca/"
-                className="underline hover:opacity-70 duration-200"
-              >
-                UWaterloo
-              </a>
-              .
+              A sorting algorithm visualizer developed with Python and Pygame
+              that visualizes algorithms such as bubble sort, heap sort, radix
+              sort, selection sort, insertion sort, merge sort, and quick sort.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                React
+                Python
+              </div>
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+                PyGame
               </div>
             </div>
             <div className="flex items-center">
               <a
-                href="https://github.com/JaehyeongPark06/CNDR"
+                href="https://github.com/JaehyeongPark06/Sorting-Algorithm-Visualizer"
                 target="_blank"
                 className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
               >
                 Github
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="36"
-                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
-                  ></path>
-                </svg>
-              </a>
-              <a
-                href="https://devpost.com/software/cindr"
-                target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
-              >
-                Devpost
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -309,17 +280,17 @@ export function Portfolio(): JSX.Element {
         </div>
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/70 to-black/70 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
-          <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/cndr.png" width={3600} height={2030} />
+          <span className="box-border overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
+            <Image src="/sort.png" width={3600} height={2040} />
           </span>
         </div>
       </div>
-      <CNDR isVisible={showCNDR} onClose={() => setShowCNDR(false)} />
+      <Sort isVisible={showSort} onClose={() => setShowSort(false)} />
       <div
         onClick={() => setShowPersonal(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
@@ -413,10 +384,105 @@ export function Portfolio(): JSX.Element {
         onClose={() => setShowPersonal(false)}
       />
       <div
+        onClick={() => setShowCNDR(true)}
+        className="block w-full aspect-video relative overflow-hidden group select-none"
+      >
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+          <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
+            <h1 className="text-gray-300 text-2xl font-bold">
+              Click for details
+            </h1>
+          </div>
+          <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
+            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">CNDR</h1>
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              A web application that tracks wildfires in real-time and provides
+              mitigation methods depending on the severity. Uses NASA's EONET
+              API for data and Google Maps to display it.
+            </p>
+            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+              Hacked at Hack the North 2022, Canada's largest hackathon @
+              <a
+                target="_blank"
+                href="https://uwaterloo.ca/"
+                className="underline hover:opacity-70 duration-200"
+              >
+                UWaterloo
+              </a>
+              .
+            </p>
+            <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+                React
+              </div>
+            </div>
+            <div className="flex items-center">
+              <a
+                href="https://github.com/JaehyeongPark06/CNDR"
+                target="_blank"
+                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+              >
+                Github
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="36"
+                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://devpost.com/software/cindr"
+                target="_blank"
+                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+              >
+                Devpost
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="36"
+                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/70 to-black/70 duration-200"></div>
+        <div className="absolute top-0 left-0 w-full h-full">
+          <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
+            <Image src="/cndr.png" width={3600} height={2030} />
+          </span>
+        </div>
+      </div>
+      <CNDR isVisible={showCNDR} onClose={() => setShowCNDR(false)} />
+      <div
         onClick={() => setShowComp(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
@@ -498,7 +564,7 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowTraffic(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-8 lg:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
             <h1 className="text-gray-300 text-2xl font-bold">
               Click for details
