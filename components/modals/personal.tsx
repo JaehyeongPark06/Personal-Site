@@ -29,21 +29,18 @@ const Personal = ({ isVisible, onClose }) => {
           <div className="w-full h-full overflow-x-hidden flex flex-col items-start text-gray-300 mt-0">
             <p className="text-gray-300 text-[0.85rem] mb-4">
               Not much to say here! This one gave me an excuse to practice with
-              Next.js and TypeScript.
+              NextJS and TypeScript.
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Next.js
+              NextJS
             </div>
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               TypeScript
             </div>
             <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
               Tailwind CSS
-            </div>
-            <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 border-[1.5px] border-gray-300 mr-2 mb-1">
-              Netlify
             </div>
           </div>
           <div className="flex items-center">

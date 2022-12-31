@@ -51,9 +51,6 @@ export function Portfolio(): JSX.Element {
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
                 Bootstrap
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                Netlify
-              </div>
             </div>
             <div className="flex items-center">
               <a
@@ -148,13 +145,10 @@ export function Portfolio(): JSX.Element {
                 Vite
               </div>
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                React
+                ReactJS
               </div>
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
                 Styled Components
-              </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                Netlify
               </div>
             </div>
             <div className="flex items-center">
@@ -302,20 +296,17 @@ export function Portfolio(): JSX.Element {
             </h1>
             <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               Not much to say here! This one gave me an excuse to practice with
-              Next.js and TypeScript.
+              NextJS and TypeScript.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                Next.js
+                NextJS
               </div>
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
                 TypeScript
               </div>
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
                 Tailwind CSS
-              </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                Netlify
               </div>
             </div>
             <div className="flex items-center">
@@ -413,7 +404,7 @@ export function Portfolio(): JSX.Element {
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
-                React
+                ReactJS
               </div>
             </div>
             <div className="flex items-center">
