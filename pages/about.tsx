@@ -13,10 +13,10 @@ const About: NextPage = () => {
         <title>About - Jaehyeong Park</title>
         <meta
           name="description"
-          content="👋 Hi! My name is Jaehyeong and I'm a high school student from Toronto
-          working with software design and development. You can find me teaching others 👨‍🏫, 
-          working on my latest projects 👨‍💻, playing chess ♟️, or doing anything else I'm 
-          interested in. Feel free to reach out through my socials. I'd love to talk! 🤝`
+          content="I'm Jaehyeong, a high school student from Toronto working with software development. The vast majority of my projects can be found on my Github.
+          Most of my recent work is related to the web, but I like to dabble with anything related to programming.
+          You can find me teaching others 👨‍🏫, working on my latest projects 👨‍💻, playing chess ♟️, or doing anything else I'm interested in.  
+          Please feel free to reach out through any of my socials below.
           "
         />
         <link rel="icon" href="/favicon.ico" />
