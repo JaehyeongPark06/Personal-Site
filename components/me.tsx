@@ -39,14 +39,14 @@ export function AboutMe(): JSX.Element {
         Please feel free to reach out through any of my socials below.
         <div className="flex flex-row justify-center sm:mt-8">
           <a
-            className="mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="https://www.linkedin.com/in/jaehyeongpark"
             target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentcolor"
@@ -54,19 +54,19 @@ export function AboutMe(): JSX.Element {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="M16.0098 8.00299C17.6011 8.00299 19.1272 8.63513 20.2524 9.76035C21.3776 10.8856 22.0098 12.4117 22.0098 14.003V21.003H18.0098V14.003C18.0098 13.4726 17.7991 12.9639 17.424 12.5888C17.0489 12.2137 16.5402 12.003 16.0098 12.003C15.4793 12.003 14.9706 12.2137 14.5956 12.5888C14.2205 12.9639 14.0098 13.4726 14.0098 14.003V21.003H10.0098V14.003C10.0098 12.4117 10.6419 10.8856 11.7671 9.76035C12.8923 8.63513 14.4185 8.00299 16.0098 8.00299V8.00299ZM2.00977 9.00299H6.00977V21.003H2.00977V9.00299Z"></path>
+              <path d="M16.0098 8.00299C17.6011 8.00299 19.1272 8.63513 20.2524 9.76035C21.3776 10.8856 22.0098 12.4117 22.0098 14.003V21.003H18.0098V14.003C18.0098 13.4728 17.7991 12.9639 17.424 12.5888C17.0489 12.2137 16.5402 12.003 16.0098 12.003C15.4793 12.003 14.9706 12.2137 14.5956 12.5888C14.2205 12.9639 14.0098 13.4728 14.0098 14.003V21.003H10.0098V14.003C10.0098 12.4117 10.6419 10.8856 11.7671 9.76035C12.8923 8.63513 14.4185 8.00299 16.0098 8.00299V8.00299ZM2.00977 9.00299H6.00977V21.003H2.00977V9.00299Z"></path>
               <path d="M4.00977 6.00299C5.11434 6.00299 6.00977 5.10756 6.00977 4.00299C6.00977 2.89842 5.11434 2.00299 4.00977 2.00299C2.9052 2.00299 2.00977 2.89842 2.00977 4.00299C2.00977 5.10756 2.9052 6.00299 4.00977 6.00299Z"></path>
             </svg>
           </a>
           <a
-            className="mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="https://www.github.com/jaehyeongpark06"
             target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentcolor"
@@ -78,14 +78,14 @@ export function AboutMe(): JSX.Element {
             </svg>
           </a>
           <a
-            className="mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="mailto:jaehyeongpark06@gmail.com"
             target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentcolor"

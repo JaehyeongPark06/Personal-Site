@@ -22,7 +22,7 @@ export const navItems = [
 export function Header(): JSX.Element {
   return (
     <>
-      <div className="flex justify-between top-0 left-0">
+      <div className="flex justify-between top-0 left-0 2xl:my-2">
         {navItems.map(({ href, title }) => (
           <NavigationItem href={href} title={title} key={href} />
         ))}

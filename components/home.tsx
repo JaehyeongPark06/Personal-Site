@@ -5,12 +5,12 @@ export function Identify(): JSX.Element {
         <h1 className="font-semibold text-gray-300 sm:text-title2 lmdl:text-title1 mdl:text-title5">
           Jaehyeong Park
         </h1>
-        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-desc3 lmdl:text-desc1">
+        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-desc2 lmdl:text-desc1">
           High School Student & Web Developer
         </h2>
         <div className="flex flex-row justify-center mt-5">
           <a
-            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="https://www.linkedin.com/in/jaehyeongpark"
             target="_blank"
           >
@@ -30,7 +30,7 @@ export function Identify(): JSX.Element {
             </svg>
           </a>
           <a
-            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="https://www.github.com/jaehyeongpark06"
             target="_blank"
           >
@@ -49,7 +49,7 @@ export function Identify(): JSX.Element {
             </svg>
           </a>
           <a
-            className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
+            className="sm:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="mailto:jaehyeongpark06@gmail.com"
             target="_blank"
           >

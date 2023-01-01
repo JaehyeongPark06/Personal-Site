@@ -36,8 +36,7 @@ module.exports = {
         title4: ["3.5rem"],
         title5: ["2.8rem"],
         desc1: ["1.2rem"],
-        desc2: ["1.4rem"],
-        desc3: ["1rem"],
+        desc2: ["1rem"],
       },
       width: {
         32: "30%",
