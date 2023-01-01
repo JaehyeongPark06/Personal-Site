@@ -35,20 +35,20 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Chess Engine
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               A chess engine based on the Negamax algorithm with up to 10th
               depth game analysis. Features include taking back moves, flipping
               and resetting the board, under promotions and custom board
               positions and evaluation times.
             </p>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               More info can be found on the Github respository.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 JavaScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Bootstrap
               </div>
             </div>
@@ -128,7 +128,7 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Pomodoro Clock
             </h1>
-            <p className="text-gray-300 font-base sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               A pomodoro clock built to manage time better. Includes features
               like an alarm system and custom timer lengths. Leverages{" "}
               <a
@@ -141,13 +141,13 @@ export function Portfolio(): JSX.Element {
               's designs.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Vite
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 ReactJS
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Styled Components
               </div>
             </div>
@@ -230,16 +230,16 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Sorting Algorithm Visualizer
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               A sorting algorithm visualizer developed with Python and Pygame
               that visualizes algorithms such as bubble sort, heap sort, radix
               sort, selection sort, insertion sort, merge sort, and quick sort.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Python
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 PyGame
               </div>
             </div>
@@ -294,18 +294,18 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Personal Site
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               Not much to say here! This one gave me an excuse to practice with
               NextJS and TypeScript.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 NextJS
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 TypeScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Tailwind CSS
               </div>
             </div>
@@ -386,12 +386,12 @@ export function Portfolio(): JSX.Element {
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">CNDR</h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               A web application that tracks wildfires in real-time and provides
               mitigation methods depending on the severity. Uses NASA's EONET
               API for data and Google Maps to display it.
             </p>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               Hacked at Hack the North 2022, Canada's largest hackathon @
               <a
                 target="_blank"
@@ -403,7 +403,7 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 ReactJS
               </div>
             </div>
@@ -483,7 +483,7 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Competitive Programming
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               My competitive programming solutions for online judges such as the{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
@@ -503,10 +503,10 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Python
               </div>
             </div>
@@ -565,20 +565,20 @@ export function Portfolio(): JSX.Element {
             <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
               Traffic Stop Intersection
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
+            <p className="2xl:font-medium text-gray-300 sm:text-[0.85rem] 3xl:text-[1.05rem] mb-4">
               Processed LED signals using parallelization and timers with
               Arduino to design and build a traffic light intersection system.
               Proposed, debugged, and optimized a functioning prototype using
               TinkerCAD.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 Arduino
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
                 TinkerCAD
               </div>
             </div>
