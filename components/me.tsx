@@ -1,7 +1,7 @@
 export function AboutMe(): JSX.Element {
   return (
     <div>
-      <h1 className="text-center font-semibold text-gray-300 sm:mt-2 sm:mb-6 sm:text-title2 xl:text-title1">
+      <h1 className="text-center sm:font-semibold 1.5xl:font-bold text-gray-300 sm:mt-2 sm:mb-6 sm:text-title2 xl:text-title1">
         About Me
       </h1>
       <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">

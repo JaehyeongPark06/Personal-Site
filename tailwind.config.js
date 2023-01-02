@@ -25,6 +25,8 @@ module.exports = {
 
       xl: "1400px",
 
+      "1.5xl": "1500px",
+
       "2xl": "1800px",
 
       "3xl": "2000px",
@@ -36,8 +38,9 @@ module.exports = {
         title3: ["1.5rem"],
         title4: ["3.5rem"],
         title5: ["2.8rem"],
+        title6: ["1.15rem"],
         desc1: ["1.05rem"],
-        desc2: ["1.15rem"],
+        desc2: ["1rem"],
       },
       width: {
         32: "32%",

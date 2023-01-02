@@ -51,12 +51,12 @@ export default function PostPage({ frontmatter, content }) {
           <h1 className="text-4xl text-gray-300 font-bold mt-8">
             {frontmatter.title}
           </h1>
-          <h2 className="text-m mt-1 text-gray-400 font-normal">
+          <h2 className="text-m mt-1 text-gray-400 font-normal text-title6">
             {frontmatter.date} <span className="font-bold">·</span>{" "}
             {frontmatter.length}
           </h2>
           <div
-            className="mt-8 text-gray-300"
+            className="mt-8 text-gray-300 font-normal sm:text-desc1 1.5xl:text-desc2"
             dangerouslySetInnerHTML={{ __html: marked(content) }}
           />
         </div>

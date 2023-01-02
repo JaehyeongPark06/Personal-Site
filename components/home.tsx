@@ -2,10 +2,10 @@ export function Identify(): JSX.Element {
   return (
     <>
       <div className="w-full fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
-        <h1 className="font-semibold text-gray-300 sm:text-title2 lmdl:text-title1 mdl:text-title5">
+        <h1 className="sm:font-semibold 1.5xl:font-bold text-gray-300 sm:text-title2 lmdl:text-title1 mdl:text-title5">
           {"{"}Jaehyeong Park{"}"}
         </h1>
-        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-desc2">
+        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-title6">
           Student & Software Developer
         </h2>
         <div className="flex flex-row justify-center mt-5 text-gray-300">

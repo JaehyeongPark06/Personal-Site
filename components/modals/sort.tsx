@@ -15,7 +15,7 @@ const Sort = ({ isVisible, onClose }) => {
               fill="currentColor"
               stroke-width="0"
               viewBox="0 0 512 512"
-              className="w-5 h-5 text-gray-100"
+              className="w-5 h-5 text-gray-800"
               height="1em"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
