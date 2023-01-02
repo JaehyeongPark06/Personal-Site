@@ -1,3 +1,4 @@
+import { FooterText } from "../components/footer";
 import Head from "next/head";
 import { Header } from "../components/header";
 import { Identify } from "../components/home";

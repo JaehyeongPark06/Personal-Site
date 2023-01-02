@@ -22,7 +22,7 @@ const Project: NextPage = () => {
             <Portfolio />
           </div>
         </main>
-        <FooterText></FooterText>
+        <FooterText />
       </div>
     </div>
   );

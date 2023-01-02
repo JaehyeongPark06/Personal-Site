@@ -1,12 +1,12 @@
 export function AboutMe(): JSX.Element {
   return (
-    <>
+    <div>
       <h1 className="text-center font-semibold text-gray-300 sm:mt-2 sm:mb-6 sm:text-title2 xl:text-title1">
         About Me
       </h1>
       <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
         I'm Jaehyeong, a high school student from Toronto working with software
-        development. The vast majority of my projects can be found on my{" "}
+        development. The majority of my projects can be found on my{" "}
         <a
           className="underline cursor-pointer hover:opacity-70 duration-200"
           href="https://github.com/JaehyeongPark06"
@@ -17,26 +17,16 @@ export function AboutMe(): JSX.Element {
         .
       </p>
       <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
-        Most of my recent work is related to the web, but I like to dabble with
-        anything related to programming.
+        Most of my recent projects are related to the web, but I like to dabble
+        with anything related to programming.
       </p>
       <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
-        You can find me teaching others{" "}
-        <span role="img" aria-label="Teacher">
-          👨‍🏫
-        </span>
-        , working on my latest projects{" "}
-        <span role="img" aria-label="Laptop">
-          👨‍💻
-        </span>
-        , playing chess{" "}
-        <span role="img" aria-label="Pawn">
-          ♟️
-        </span>
-        , or doing anything else I&apos;m interested in.
+        You can find me teaching others, working on my latest projects, playing
+        chess, or doing anything else I&apos;m interested in.
       </p>
       <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
-        Please feel free to reach out through any of my socials below.
+        Feel free to connect with me through any of the avenues below. I'd love
+        to talk!
         <div className="flex flex-row justify-center sm:mt-8">
           <a
             className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
@@ -99,6 +89,6 @@ export function AboutMe(): JSX.Element {
           </a>
         </div>
       </p>
-    </>
+    </div>
   );
 }

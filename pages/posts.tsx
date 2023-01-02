@@ -51,7 +51,7 @@ export default function Blog({ posts }) {
           {sortPostsByDate.map(({ slug, frontmatter }) => (
             <div
               key={slug}
-              className="mt-8 rounded-lg bg-gray-200 border border-gray-600 w-full"
+              className="mt-8 rounded-lg border-dashed border-2 border-gray-300 w-full"
             >
               <Link href={`/post/${slug}`}>
                 <a>

@@ -47,7 +47,7 @@ export default function PostPage({ frontmatter, content }) {
       </Head>
       <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-42 2xl:w-32">
         <Header />
-        <main className="w-full">
+        <div className="w-full">
           <h1 className="text-4xl text-gray-300 font-bold mt-8">
             {frontmatter.title}
           </h1>
@@ -59,7 +59,7 @@ export default function PostPage({ frontmatter, content }) {
             className="mt-8 text-gray-300"
             dangerouslySetInnerHTML={{ __html: marked(content) }}
           />
-        </main>
+        </div>
         <FooterText />
       </div>
     </div>

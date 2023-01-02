@@ -3,12 +3,12 @@ export function Identify(): JSX.Element {
     <>
       <div className="w-full fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
         <h1 className="font-semibold text-gray-300 sm:text-title2 lmdl:text-title1 mdl:text-title5">
-          Jaehyeong Park
+          {"{"}Jaehyeong Park{"}"}
         </h1>
-        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-desc2 lmdl:text-desc1">
-          High School Student & Web Developer
+        <h2 className="font-normal text-gray-300 mt-0.25 sm:text-desc2">
+          Student & Software Developer
         </h2>
-        <div className="flex flex-row justify-center mt-5">
+        <div className="flex flex-row justify-center mt-5 text-gray-300">
           <a
             className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
             href="https://www.linkedin.com/in/jaehyeongpark"
@@ -20,7 +20,7 @@ export function Identify(): JSX.Element {
               height="28"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#DADADB"
+              stroke="currentcolor"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -40,7 +40,7 @@ export function Identify(): JSX.Element {
               height="28"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#DADADB"
+              stroke="currentcolor"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -59,7 +59,7 @@ export function Identify(): JSX.Element {
               height="28"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#DADADB"
+              stroke="currentcolor"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"

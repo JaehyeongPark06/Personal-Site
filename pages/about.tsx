@@ -23,7 +23,7 @@ const About: NextPage = () => {
         <main className="w-full">
           <AboutMe />
         </main>
-        <FooterText></FooterText>
+        <FooterText />
       </div>
     </div>
   );
