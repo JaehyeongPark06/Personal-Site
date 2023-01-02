@@ -43,7 +43,7 @@ export default function PostPage({ frontmatter, content }) {
     <div>
       <Head>
         {" "}
-        <title>{frontmatter.title} - Jaehyeong Park</title>
+        <title>{frontmatter.title} · Jaehyeong Park</title>
       </Head>
       <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-42 2xl:w-32">
         <Header />

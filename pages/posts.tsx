@@ -1,5 +1,3 @@
-import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import { DateTime } from "luxon";
 import { FooterText } from "../components/footer";
 import Head from "next/head";
@@ -39,7 +37,7 @@ export default function Blog({ posts }) {
     <div>
       <Head>
         {" "}
-        <title>Posts - Jaehyeong Park</title>
+        <title>Posts · Jaehyeong Park</title>
         <meta
           name="description"
           content="These are my blog posts. It will mostly cover talks about tech and my projects."

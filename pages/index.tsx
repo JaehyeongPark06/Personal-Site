@@ -1,5 +1,3 @@
-import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import Head from "next/head";
 import { Header } from "../components/header";
 import { Identify } from "../components/home";

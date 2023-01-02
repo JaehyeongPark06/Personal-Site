@@ -1,5 +1,3 @@
-import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import { FooterText } from "../components/footer";
 import Head from "next/head";
 import { Header } from "../components/header";
@@ -11,7 +9,7 @@ const Project: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Projects - Jaehyeong Park</title>
+        <title>Projects · Jaehyeong Park</title>
         <meta name="description" content="Uploading soon." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
