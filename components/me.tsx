@@ -4,7 +4,7 @@ export function AboutMe(): JSX.Element {
       <h1 className="text-center font-semibold text-gray-300 sm:mt-2 sm:mb-6 sm:text-title2 xl:text-title1">
         About Me
       </h1>
-      <p className="sm:font-light 2xl:font-medium mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
+      <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
         I'm Jaehyeong, a high school student from Toronto working with software
         development. The vast majority of my projects can be found on my{" "}
         <a
@@ -16,11 +16,11 @@ export function AboutMe(): JSX.Element {
         </a>
         .
       </p>
-      <p className="sm:font-light 2xl:font-medium mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
+      <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
         Most of my recent work is related to the web, but I like to dabble with
         anything related to programming.
       </p>
-      <p className="sm:font-light 2xl:font-medium mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
+      <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
         You can find me teaching others{" "}
         <span role="img" aria-label="Teacher">
           👨‍🏫
@@ -35,7 +35,7 @@ export function AboutMe(): JSX.Element {
         </span>
         , or doing anything else I&apos;m interested in.
       </p>
-      <p className="sm:font-light 2xl:font-medium mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
+      <p className="font-normal mt-4 mb-8 text-gray-300 sm:text-desc1 2xl:text-desc2">
         Please feel free to reach out through any of my socials below.
         <div className="flex flex-row justify-center sm:mt-8">
           <a

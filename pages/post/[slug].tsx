@@ -56,7 +56,7 @@ export default function PostPage({ frontmatter, content }) {
             {frontmatter.length}
           </h2>
           <div
-            className="mt-8 text-gray-300 2xl:font-medium"
+            className="mt-8 text-gray-300"
             dangerouslySetInnerHTML={{ __html: marked(content) }}
           />
         </main>

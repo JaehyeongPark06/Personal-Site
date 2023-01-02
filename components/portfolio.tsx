@@ -45,10 +45,10 @@ export function Portfolio(): JSX.Element {
               More info can be found on the Github respository.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 JavaScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Bootstrap
               </div>
             </div>
@@ -141,13 +141,13 @@ export function Portfolio(): JSX.Element {
               's designs.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Vite
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 ReactJS
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Styled Components
               </div>
             </div>
@@ -236,10 +236,10 @@ export function Portfolio(): JSX.Element {
               sort, selection sort, insertion sort, merge sort, and quick sort.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Python
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 PyGame
               </div>
             </div>
@@ -299,13 +299,13 @@ export function Portfolio(): JSX.Element {
               NextJS and TypeScript.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 NextJS
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 TypeScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Tailwind CSS
               </div>
             </div>
@@ -403,7 +403,7 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 ReactJS
               </div>
             </div>
@@ -503,10 +503,10 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Python
               </div>
             </div>
@@ -572,13 +572,13 @@ export function Portfolio(): JSX.Element {
               TinkerCAD.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 Arduino
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2.5px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
                 TinkerCAD
               </div>
             </div>
