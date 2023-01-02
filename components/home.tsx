@@ -10,9 +10,10 @@ export function Identify(): JSX.Element {
             <Image
               alt="computer graphic"
               className="z-0 opacity-10 absolute box-border m-auto block"
-              src="/pc.png"
+              src="/pc.webp"
               width={250}
               height={250}
+              priority
             />
           </span>
         </div>

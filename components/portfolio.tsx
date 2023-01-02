@@ -109,7 +109,12 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/90 to-black/90 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/chess-engine.png" width={3600} height={2040} />
+            <Image
+              src="/chess-engine.png"
+              priority
+              width={3600}
+              height={2040}
+            />
           </span>
         </div>
       </div>
@@ -208,7 +213,12 @@ export function Portfolio(): JSX.Element {
         <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/90 to-black/90 duration-200"></div>
         <div className="absolute top-0 left-0 w-full h-full">
           <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image src="/pomodoro-clock.png" width={3600} height={2030} />
+            <Image
+              src="/pomodoro-clock.png"
+              priority
+              width={3600}
+              height={2030}
+            />
           </span>
         </div>
       </div>
