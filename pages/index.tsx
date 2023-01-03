@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Jaehyeong Park</title>
         <meta
           name="description"
-          content="Welcome to my site! I'm a high school student learning 
+          content="Jaehyeong Park. Welcome to my site! I'm a high school student learning 
           web development. You can learn more about me here."
         />
         <link rel="icon" href="/favicon.ico" />

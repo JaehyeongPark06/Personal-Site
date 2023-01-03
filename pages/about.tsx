@@ -11,7 +11,7 @@ const About: NextPage = () => {
         <title>About me · Jaehyeong Park</title>
         <meta
           name="description"
-          content="I'm Jaehyeong, a high school student from Toronto working with software development. The vast majority of my projects can be found on my Github.
+          content="I'm Jaehyeong Park, a high school student from Toronto working with software development. The vast majority of my projects can be found on my Github.
           Most of my recent work is related to the web, but I like to dabble with anything related to programming.
           You can find me teaching others 👨‍🏫, working on my latest projects 👨‍💻, playing chess ♟️, or doing anything else I'm interested in.          
           "
