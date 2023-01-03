@@ -9,10 +9,16 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Jaehyeong Park</title>
+        <meta name="title" content="Jaehyeong Park" />
+        <meta name="author" content="Jaehyeong Park" />
         <meta
           name="description"
           content="Jaehyeong Park. Welcome to my site! I'm a high school student learning 
           web development. You can learn more about me here."
+        />
+        <meta
+          name="keywords"
+          content="software developer Jaehyeong Park Software Engineer"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
