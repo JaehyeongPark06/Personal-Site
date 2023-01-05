@@ -45,18 +45,18 @@ export default function PostPage({ frontmatter, content }) {
         {" "}
         <title>{frontmatter.title} · Jaehyeong Park</title>
       </Head>
-      <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-42 2xl:w-32">
+      <div className="my-0 mx-auto sm:w-[90%] md:w-[88%] lmd:w-[70%] lg:w-[42%] 2xl:w-[35%]">
         <Header />
         <div className="w-full">
           <h1 className="text-4xl text-gray-300 font-extrabold mt-8">
             {frontmatter.title}
           </h1>
-          <h2 className="mt-1 text-gray-300 font-normal text-[1.15rem]">
+          <h2 className="mt-1 text-gray-300 font-normal text-[1.05rem]">
             {frontmatter.date} <span className="font-extrabold">·</span>{" "}
             {frontmatter.length}
           </h2>
           <article
-            className="prose prose-base mt-5"
+            className="prose prose-base mt-6"
             dangerouslySetInnerHTML={{ __html: md().render(content) }}
           />
         </div>
