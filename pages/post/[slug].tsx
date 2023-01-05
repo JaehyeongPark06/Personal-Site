@@ -2,8 +2,8 @@ import { FooterText } from "../../components/footer";
 import Head from "next/head";
 import { Header } from "../../components/header";
 import fs from "fs";
-import { marked } from "marked";
 import matter from "gray-matter";
+import md from "markdown-it";
 import path from "path";
 
 export async function getStaticPaths() {
@@ -48,16 +48,16 @@ export default function PostPage({ frontmatter, content }) {
       <div className="my-0 mx-auto sm:w-slugs md:w-88 lmd:w-60 lg:w-42 2xl:w-32">
         <Header />
         <div className="w-full">
-          <h1 className="text-4xl text-gray-300 font-bold mt-8">
+          <h1 className="text-4xl text-gray-300 font-extrabold mt-8">
             {frontmatter.title}
           </h1>
-          <h2 className="text-m mt-1 text-gray-400 font-normal text-title6">
-            {frontmatter.date} <span className="font-bold">·</span>{" "}
+          <h2 className="mt-1 text-gray-300 font-normal text-[1.15rem]">
+            {frontmatter.date} <span className="font-extrabold">·</span>{" "}
             {frontmatter.length}
           </h2>
-          <div
-            className="mt-8 text-gray-300 font-normal sm:text-desc1 1.5xl:text-desc2"
-            dangerouslySetInnerHTML={{ __html: marked(content) }}
+          <article
+            className="prose prose-base mt-5"
+            dangerouslySetInnerHTML={{ __html: md().render(content) }}
           />
         </div>
         <FooterText />

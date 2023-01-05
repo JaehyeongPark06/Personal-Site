@@ -5,11 +5,11 @@ export function Identify(): JSX.Element {
     <div className="w-full fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
       <div className="z-0 flex w-full h-full items-center justify-center relative">
         <div className="relative flex items-center justify-center">
-          <div className="absolute w-80 h-24 -rotate-45 bg-gradient-to-r from-gray-100 to-gray-100 blur-3xl from rounded-[100%]" />
-          <span className="box-border inline-block overflow-hidden relative">
+          <div className="absolute w-80 h-24 -rotate-45 bg-gradient-to-r from-gray-100 to-gray-100 blur-3xl from rounded-full" />
+          <span className="overflow-hidden relative">
             <Image
               alt="computer graphic"
-              className="z-0 opacity-10 absolute box-border m-auto block"
+              className="opacity-[15%] absolute m-auto"
               src="/pc.webp"
               width={250}
               height={250}
@@ -17,9 +17,9 @@ export function Identify(): JSX.Element {
             />
           </span>
         </div>
-        <div className="z-10 flex flex-col items-center justify-center absolute">
+        <div className="flex flex-col items-center justify-center absolute">
           <h1 className="sm:font-semibold 1.5xl:font-bold text-gray-300 sm:text-title2 lmdl:text-title1 mdl:text-title5">
-            {"{"}Jaehyeong Park{"}"}
+            Jaehyeong Park
           </h1>
           <h2 className="font-normal text-gray-300 mt-0.25 sm:text-title6">
             Student & Software Developer
