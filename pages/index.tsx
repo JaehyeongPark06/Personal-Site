@@ -9,7 +9,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Jaehyeong Park</title>
-        <meta name="title" content="Jaehyeong Park" />
+        <meta
+          name="title"
+          content="Jaehyeong Park | High School Student | Software Developer"
+        />
         <meta name="author" content="Jaehyeong Park" />
         <meta
           name="description"

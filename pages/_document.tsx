@@ -5,6 +5,10 @@ export default function Document() {
     <Html>
       <Head>
         <meta
+          name="title"
+          content="Jaehyeong Park | High School Student | Software Developer"
+        />
+        <meta
           name="description"
           content="Learn more about student and software developer Jaehyeong Park and browse through Jaehyeong's collection of projects."
         />
