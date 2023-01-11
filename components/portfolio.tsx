@@ -25,30 +25,30 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowChess(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Chess Engine
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               A chess engine based on the Negamax algorithm with up to 10th
               depth game analysis. Features include taking back moves, flipping
               and resetting the board, under promotions and custom board
               positions and evaluation times.
             </p>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               More info can be found on the Github respository.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 JavaScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Bootstrap
               </div>
             </div>
@@ -56,7 +56,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Chess-Engine"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -81,7 +81,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://jaehyeong-chess-engine.netlify.app/"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Live Site
                 <svg
@@ -123,17 +123,17 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowPomodoro(true)}
         className="sm:cursor-pointer mdl:cursor-default block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Pomodoro Clock
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               A pomodoro clock built to manage time better. Includes features
               like an alarm system and custom timer lengths. Leverages{" "}
               <a
@@ -146,13 +146,13 @@ export function Portfolio(): JSX.Element {
               's designs.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Vite
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
-                ReactJS
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
+                React.js
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Styled Components
               </div>
             </div>
@@ -160,7 +160,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Pomodoro-Clock"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -185,7 +185,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://jaehyeong-pomodoro.netlify.app/"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Live Site
                 <svg
@@ -230,26 +230,26 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowSort(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Sorting Algorithm Visualizer
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               A sorting algorithm visualizer developed with Python and Pygame
               that visualizes algorithms such as bubble sort, heap sort, radix
               sort, selection sort, insertion sort, merge sort, and quick sort.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Python
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 PyGame
               </div>
             </div>
@@ -257,7 +257,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Sorting-Algorithm-Visualizer"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -294,28 +294,28 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowPersonal(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Personal Site
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
-              Not much to say here! This one gave me an excuse to practice with
-              NextJS and TypeScript.
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+              I don't really know what to say here. I guess this one helped me
+              practice with Next.js and TypeScript.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
-                NextJS
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
+                Next.js
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 TypeScript
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Tailwind CSS
               </div>
             </div>
@@ -323,7 +323,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Personal-Site"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -348,7 +348,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://jaehyeongpark.social/"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Live Site
                 <svg
@@ -388,20 +388,20 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowCNDR(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">CNDR</h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">CNDR</h1>
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               A web application that tracks wildfires in real-time and provides
               mitigation methods depending on the severity. Uses NASA's EONET
               API for data and Google Maps to display it.
             </p>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               Hacked at Hack the North 2022, Canada's largest hackathon @
               <a
                 target="_blank"
@@ -413,15 +413,15 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
-                ReactJS
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
+                React.js
               </div>
             </div>
             <div className="flex items-center">
               <a
                 href="https://github.com/JaehyeongPark06/CNDR"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -446,7 +446,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://devpost.com/software/cindr"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Devpost
                 <svg
@@ -483,17 +483,17 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowComp(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Competitive Programming
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               My competitive programming solutions for online judges such as the{" "}
               <a
                 className="underline hover:opacity-70 duration-200 cursor-pointer"
@@ -513,10 +513,10 @@ export function Portfolio(): JSX.Element {
               .
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Python
               </div>
             </div>
@@ -524,7 +524,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Competitive-Programming"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg
@@ -565,30 +565,30 @@ export function Portfolio(): JSX.Element {
         onClick={() => setShowTraffic(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
       >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-300">
+        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
           <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-300 text-2xl font-bold">
+            <h1 className="text-gray-200 text-2xl font-bold">
               Click for details
             </h1>
           </div>
           <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-300 text-2xl font-extrabold mb-4">
+            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
               Traffic Stop Intersection
             </h1>
-            <p className="text-gray-300 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
+            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
               Processed LED signals using parallelization and timers with
               Arduino to design and build a traffic light intersection system.
               Proposed, debugged, and optimized a functioning prototype using
               TinkerCAD.
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 C++
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 Arduino
               </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-300 sm:border-[1.5px] 2xl:border-[2px] border-gray-300 mr-2 mb-1 font-medium">
+              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
                 TinkerCAD
               </div>
             </div>
@@ -596,7 +596,7 @@ export function Portfolio(): JSX.Element {
               <a
                 href="https://github.com/JaehyeongPark06/Traffic-Stop-Intersection"
                 target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-300 font-bold mr-5 flex items-center"
+                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
               >
                 Github
                 <svg

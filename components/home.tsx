@@ -18,13 +18,13 @@ export function Identify(): JSX.Element {
           </span>
         </div>
         <div className="flex flex-col items-center justify-center absolute">
-          <h1 className="sm:font-semibold 1.5xl:font-bold text-gray-300 sm:text-[2rem] lmdl:text-[2.4rem] mdl:text-[2.8rem]">
+          <h1 className="sm:font-semibold 1.5xl:font-bold text-gray-200 sm:text-[2rem] lmdl:text-[2.4rem] mdl:text-[2.8rem]">
             Jaehyeong Park
           </h1>
-          <h2 className="font-normal text-gray-300 mt-0.25 sm:text-[1.15rem]">
+          <h2 className="font-normal text-gray-200 mt-0.25 sm:text-[1.15rem]">
             Student & Software Developer
           </h2>
-          <div className="flex flex-row justify-center mt-5 text-gray-300">
+          <div className="flex flex-row justify-center mt-5 text-gray-200">
             <a
               className="sm:mx-3 mdl:mx-2 cursor-pointer hover:opacity-70 duration-200"
               href="https://www.linkedin.com/in/jaehyeongpark"
