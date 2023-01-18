@@ -8,7 +8,7 @@ const About: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>About me · Jaehyeong Park</title>
+        <title>About Me · Jaehyeong Park</title>
         <meta
           name="description"
           content="I'm Jaehyeong Park, a high school student from Toronto working with software development. The vast majority of my projects can be found on my Github.

@@ -1,6 +1,5 @@
 import CNDR from "./modals/cndr";
 import Chess from "./modals/chess";
-import Comp from "./modals/comp";
 import Image from "next/image";
 import Personal from "./modals/personal";
 import Pomodoro from "./modals/pomodoro";
@@ -8,13 +7,12 @@ import Sort from "./modals/sort";
 import Traffic from "./modals/traffic";
 import { useState } from "react";
 
-// mapping later
+// mapping and organization later
 export function Portfolio(): JSX.Element {
   // making this efficient later
   const [showPomodoro, setShowPomodoro] = useState(false);
   const [showCNDR, setShowCNDR] = useState(false);
   const [showPersonal, setShowPersonal] = useState(false);
-  const [showComp, setShowComp] = useState(false);
   const [showTraffic, setShowTraffic] = useState(false);
   const [showChess, setShowChess] = useState(false);
   const [showSort, setShowSort] = useState(false);
@@ -479,88 +477,6 @@ export function Portfolio(): JSX.Element {
         </div>
       </div>
       <CNDR isVisible={showCNDR} onClose={() => setShowCNDR(false)} />
-      <div
-        onClick={() => setShowComp(true)}
-        className="block w-full aspect-video relative overflow-hidden group select-none"
-      >
-        <div className="absolute top-0 left-0 z-10 w-full h-full sm:p-14 mdl:p-6 opacity-0 group-hover:opacity-100 duration-200">
-          <div className="w-full h-full xl:hidden cursor-pointer lmd:hidden sm:flex flex justify-center items-center">
-            <h1 className="text-gray-200 text-2xl font-bold">
-              Click for details
-            </h1>
-          </div>
-          <div className="w-full h-full xl:flex lmd:flex sm:hidden hidden flex-col justify-end">
-            <h1 className="text-gray-200 text-2xl font-extrabold mb-4">
-              Competitive Programming
-            </h1>
-            <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
-              My competitive programming solutions for online judges such as the{" "}
-              <a
-                className="underline hover:opacity-70 duration-200 cursor-pointer"
-                target="_blank"
-                href="https://dmoj.ca/"
-              >
-                DMOJ
-              </a>{" "}
-              and{" "}
-              <a
-                className="underline hover:opacity-70 duration-200 cursor-pointer"
-                target="_blank"
-                href="https://codeforces.com/"
-              >
-                Codeforces
-              </a>
-              .
-            </p>
-            <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
-                C++
-              </div>
-              <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">
-                Python
-              </div>
-            </div>
-            <div className="flex items-center">
-              <a
-                href="https://github.com/JaehyeongPark06/Competitive-Programming"
-                target="_blank"
-                className="hover:opacity-70 duration-200 text-gray-200 font-bold mr-5 flex items-center"
-              >
-                Github
-                <svg
-                  stroke="currentColor"
-                  fill="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 512 512"
-                  className="ml-[0.12rem] pt-0.5 h-5 w-5 -rotate-45"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="36"
-                    d="M208 352h-64a96 96 0 010-192h64m96 0h64a96 96 0 010 192h-64m-140.71-96h187.42"
-                  ></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="absolute top-0 left-0 z-[5] w-full h-full opacity-0 group-hover:opacity-100 bg-gradient-to-t from-black/90 to-black/90 duration-200"></div>
-        <div className="absolute top-0 left-0 w-full h-full">
-          <span className="box-border block overflow-hidden opacity-100 m-0 p-0 absolute top-0 left-0 bottom-0 right-0">
-            <Image
-              src="/competitive-programming.png"
-              width={3600}
-              height={2030}
-            />
-          </span>
-        </div>
-      </div>
-      <Comp isVisible={showComp} onClose={() => setShowComp(false)} />
       <div
         onClick={() => setShowTraffic(true)}
         className="block w-full aspect-video relative overflow-hidden group select-none"
