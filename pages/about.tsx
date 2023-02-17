@@ -16,7 +16,7 @@ const About: NextPage = () => {
           You can find me teaching others 👨‍🏫, working on my latest projects 👨‍💻, playing chess ♟️, or doing anything else I'm interested in.          
           "
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pc.webp" />
       </Head>
       <div className="my-0 mx-auto sm:w-[90%] md:w-[88%] lmd:w-[70%] lg:w-[42%] 2xl:w-[35%]">
         <Header />

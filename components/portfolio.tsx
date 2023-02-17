@@ -303,8 +303,7 @@ export function Portfolio(): JSX.Element {
               Personal Site
             </h1>
             <p className="text-gray-200 sm:text-[0.85rem] 2xl:text-[0.95rem] mb-4">
-              I don't really know what to say here. I guess this one helped me
-              practice with Next.js and TypeScript.
+              Learn more about me here!
             </p>
             <div className="flex w-full flex-wrap items-center mb-6 opacity-60">
               <div className="px-2 pt-[0.2rem] pb-[0.2rem] text-[0.77rem] text-gray-200 sm:border-[1.5px] 2xl:border-[2px] border-gray-200 mr-2 mb-1 font-medium">

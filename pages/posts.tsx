@@ -36,13 +36,12 @@ export default function Blog({ posts }) {
   return (
     <div>
       <Head>
-        {" "}
         <title>Posts · Jaehyeong Park</title>
         <meta
           name="description"
           content="These are my blog posts. It will mostly cover talks about tech and my projects."
-        />{" "}
-        <link rel="icon" href="/favicon.ico" />{" "}
+        />
+        <link rel="icon" href="/pc.webp" />
       </Head>
       <div className="my-0 mx-auto sm:w-[90%] md:w-[88%] lmd:w-[70%] lg:w-[42%] 2xl:w-[35%]">
         <Header />

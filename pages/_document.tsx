@@ -16,7 +16,6 @@ export default function Document() {
         <meta name="author" content="Jaehyeong Park" />
         <meta name="copyright" content="2022 Jaehyeong Park" />
         <link rel="canonical" href="https://jaehyeongpark.social" />
-
         <meta property="og:url" content="https://jaehyeongpark.social" />
         <meta property="og:site_name" content="Jaehyeong Park" />
         <meta property="og:title" content="Student and Software Developer" />

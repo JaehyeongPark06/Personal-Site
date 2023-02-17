@@ -11,7 +11,7 @@ const Project: NextPage = () => {
       <Head>
         <title>Projects · Jaehyeong Park</title>
         <meta name="description" content="A list of a my personal projects." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/pc.webp" />
       </Head>
       <div className="my-0 mx-auto sm:w-[90%] md:w-[88%] lmd:w-[70%] lg:w-[42%] 2xl:w-[35%]">
         <Header />

@@ -5,27 +5,16 @@ export function AboutMe(): JSX.Element {
         About Me
       </h1>
       <p className="font-normal mt-4 mb-8 text-gray-200 sm:text-[1.05rem] 2xl:text-[1rem]">
-        I'm Jaehyeong, a high school student from Toronto working with software
-        development. The majority of my projects can be found on my{" "}
-        <a
-          className="underline cursor-pointer hover:opacity-70 duration-200"
-          href="https://github.com/JaehyeongPark06"
-          target="_blank"
-        >
-          Github
-        </a>
-        .
+        I'm Jaehyeong, a high school student from Toronto, Canada 🇨🇦 building
+        software 👨‍💻 I find interesting.
       </p>
       <p className="font-normal mt-4 mb-8 text-gray-200 sm:text-[1.05rem] 2xl:text-[1rem]">
-        Most of my recent projects are related to the web, but I like to dabble
-        with anything related to programming.
+        Outside of studying, you can find me teaching others 🧑‍🏫, solving math
+        contest problems 📘, playing chess ♟️, or doing anything else I&apos;m
+        passionate about.
       </p>
       <p className="font-normal mt-4 mb-8 text-gray-200 sm:text-[1.05rem] 2xl:text-[1rem]">
-        You can find me teaching others 🧑‍🏫, working on my latest projects 👨‍💻,
-        playing chess ♟️, or doing anything else I&apos;m interested in.
-      </p>
-      <p className="font-normal mt-4 mb-8 text-gray-200 sm:text-[1.05rem] 2xl:text-[1rem]">
-        Feel free to connect with me through my socials. I'd love to talk!
+        Feel free to contact with me through my socials. I'd love to talk! 🤝
       </p>
     </div>
   );
