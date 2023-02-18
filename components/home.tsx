@@ -22,7 +22,7 @@ export function Identify(): JSX.Element {
             Jaehyeong Park
           </h1>
           <h2 className="font-normal text-gray-200 mt-0.25 sm:text-[1.15rem]">
-            Software Developer
+            Software Engineer
           </h2>
           <div className="flex flex-row justify-center mt-5 text-gray-200">
             <a
